@@ -29,9 +29,9 @@ Arduino IDE programmā jāielādē bibliotēkas:
 2) TFT_ILI9163C.h - lejuplādēt un mapi ielikt Arduino/libraries
 Labojumi bibliotēkā un piemēros:
 TFT_ILI9163C bibliotēkas failā _settings/TFT_ILI9163C_settings.h teksta redaktorā jālabo OFFSET no 32 uz 0.
-Piemēros jāieraksta Reset pins rindā “TFT_ILI9163C tft = TFT_ILI9163C(__CS, __DC);”
-Rindu papildinot ar “8,”, jāizskatās šādi: .. (__CS, 8,__DC);
-3) Bibiliotēkas SoftwareSerial.h un SPI.h jau ir Arduino IDE programmā
+Iebūvētajos piemēros jāieraksta Reset pins rindā “TFT_ILI9163C tft = TFT_ILI9163C(__CS, __DC);”
+Rindu papildinot ar “8,”, jāizskatās šādi: TFT_ILI9163C tft = TFT_ILI9163C(__CS, 8,__DC);
+3) Bibiliotēkas SoftwareSerial.h un SPI.h jau ir Arduino IDE programmā.
 
 • KALIBRĒŠANA
 
