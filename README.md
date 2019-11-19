@@ -18,7 +18,7 @@ virs tā iespējama ietekme uz veselību un pašsajūtu, bet pie lielām koncent
 1) CO2 sensors MH-Z14A:
 19 TX – 6 | 18 RX – 5 | 17 – 5V | 16 – GND
 2) EKRĀNS 1.44″ SPI TFT 128×128:
-LED ->3.3V | SCK (SCK) -> D13 | SDA (MOSI) -> D11 | A0 (DC) – D9 | RESET (RST) -> D8 | CS -> D10 | GND -> Ground | VCC -> 5V
+LED ->3.3V | SCK (SCK) -> D13 | SDA (MOSI) -> D11 | A0 (DC) – D8 | RESET (RST) -> D9 | CS -> D10 | GND -> Ground | VCC -> 5V
 3) DHT22 (skatoties no restotās priekšas):
 VCC – 5V | Data – Pin2 | NC – tukšs | Ground – GND
 
