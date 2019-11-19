@@ -25,12 +25,10 @@ VCC – 5V | Data – Pin2 | NC – tukšs | Ground – GND
 • BIBLIOTĒKAS
 
 Arduino IDE programmā jāielādē bibliotēkas:
-1) DHT.h - pielikt Arduino IDE programmā
+1) DHT.h - pielikt Arduino IDE programmā (Rīki - Pārvaldīt bibliotēkas - Meklēt dht - DHT sensor library by Adafruit - Instalēt)
 2) TFT_ILI9163C.h - lejuplādēt un mapi ielikt Arduino/libraries
-Labojumi bibliotēkā un piemēros:
+! Labojums bibliotēkā:
 TFT_ILI9163C bibliotēkas failā _settings/TFT_ILI9163C_settings.h teksta redaktorā jālabo OFFSET no 32 uz 0.
-Iebūvētajos piemēros jāieraksta Reset pins rindā “TFT_ILI9163C tft = TFT_ILI9163C(__CS, __DC);”
-Rindu papildinot ar “8,”, jāizskatās šādi: TFT_ILI9163C tft = TFT_ILI9163C(__CS, 8,__DC);
 3) Bibiliotēkas SoftwareSerial.h un SPI.h jau ir Arduino IDE programmā.
 
 • KALIBRĒŠANA
