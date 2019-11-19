@@ -13,7 +13,7 @@ virs tā iespējama ietekme uz veselību un pašsajūtu, bet pie lielām koncent
 5) Savienošanas vadi female-female
 6) Temperatūras un mitruma sensors DHT22 (vai DHT11)
 
-https://www.orient.lv/wp-content/uploads/2019/11/co2_mhz14_dht22_tft128x128_nano.jpg
+![Foto un shēma](https://www.orient.lv/wp-content/uploads/2019/11/co2_mhz14_dht22_tft128x128_nano.jpg)
 
 • SLĒGUMS ar NANO 3.0
 
