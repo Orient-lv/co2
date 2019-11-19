@@ -35,8 +35,8 @@ TFT_ILI9163C bibliotēkas failā _settings/TFT_ILI9163C_settings.h teksta redakt
 
 • KALIBRĒŠANA
 
-Svaigā gaisā CO2 sensora kontakts Nr.8 (3. otrajā rindā no otra gala) ir jāsavieno uz 7 sekundēm ar Ground.
-Jāatstāj svaigā gaisā uz 5-6 minūtēm. Sensors ir nokalibrēts.
-Vienmēr var pārbaudīt kalibrāciju, iznesot sensoru svaigā gaisā. Tam ir jārāda 390 – 410ppm.
+Svaigā gaisā CO2 sensora kontakts Nr.8 (3. otrajā rindā no otra gala) ir jāsavieno uz vismaz 7 sekundēm ar Ground.
+Jāatstāj svaigā gaisā uz 5-6 minūtēm - tad sensors ir nokalibrēts.
+Vienmēr var pārbaudīt kalibrāciju, iznesot sensoru svaigā gaisā. Tam ir jārāda 395 – 410ppm.
 
 Specifikācijā norādīts uzsilšanas laiks 3 min., tātad korekti rādījumi būs līdz 3 minūtēm pēc ieslēgšanas.
