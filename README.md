@@ -33,11 +33,11 @@ VCC – 5V | Data – Pin2 | NC – tukšs | Ground – GND
 Arduino IDE programmā jāielādē bibliotēkas:
 1) DHT.h - pielikt Arduino IDE programmā (Rīki - Pārvaldīt bibliotēkas - Meklēt dht - DHT sensor library by Adafruit - Instalēt)
 2) Bibiliotēkas SoftwareSerial.h un SPI.h jau ir Arduino IDE programmā.
-3a) TFT_ILI9163C.h - https://github.com/sumotoy/TFT_ILI9163C - Lejuplādēt, atzipot un ielikt mapi Arduino/Libraries mapē.
+3) a - TFT_ILI9163C.h - https://github.com/sumotoy/TFT_ILI9163C - Lejuplādēt, atzipot un ielikt mapi Arduino/Libraries mapē.
 ! Labojums bibliotēkā:
 Bibliotēkas TFT_ILI9163C failā _settings/TFT_ILI9163C_settings.h teksta redaktorā jālabo cipari: 
-TFTWIDTH 131, GRAMWIDTH 131, OFFSET 1. Pārstartēt programmu.
-3b) Adafruit_SSD1331.h un Adafruit_GFX.h - lejuplādējamas Arduino IDE programmā (Rīki – Pārvaldīt bibliotēkas – Meklēt – Instalēt).
+TFTWIDTH 131, GRAMWIDTH 131, OFFSET 1. Pārstartēt programmu. 
+b - Adafruit_SSD1331.h un Adafruit_GFX.h - lejuplādējamas Arduino IDE programmā (Rīki – Pārvaldīt bibliotēkas – Meklēt – Instalēt).
 
 
 • KALIBRĒŠANA
