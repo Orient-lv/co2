@@ -30,10 +30,8 @@ Arduino IDE programmā jāielādē bibliotēkas:
 1) DHT.h - pielikt Arduino IDE programmā (Rīki - Pārvaldīt bibliotēkas - Meklēt dht - DHT sensor library by Adafruit - Instalēt)
 2) TFT_ILI9163C.h - github.com/sumotoy/TFT_ILI9163C - Lejuplādēt, atzipot un ielikt mapi Arduino/Libraries mapē.
 ! Labojums bibliotēkā:
-Bibliotēkas TFT_ILI9163C failā _settings/TFT_ILI9163C_settings.h teksta redaktorā jālabo cipari:
-#define _TFTWIDTH 131
-#define _GRAMWIDTH 131
-#define __OFFSET 1
+Bibliotēkas TFT_ILI9163C failā _settings/TFT_ILI9163C_settings.h teksta redaktorā jālabo cipari: 
+TFTWIDTH 131, GRAMWIDTH 131, OFFSET 1.
 Pārstartēt programmu.
 3) Bibiliotēkas SoftwareSerial.h un SPI.h jau ir Arduino IDE programmā.
 
