@@ -20,11 +20,11 @@ virs tā iespējama ietekme uz veselību un pašsajūtu, bet pie lielām koncent
 
 1) a - CO2 sensors MH-Z14A:
 19 TX – 6 | 18 RX – 5 | 17 – 5V | 16 – GND. 
-1) b - CO2 sensors MH-Z19B:
+*** b - CO2 sensors MH-Z19B:
 TX - D6, RX - D5, Vin - 5V (3.6V-5.5V), GND - Ground. 
 2) a - EKRĀNS 1.44″ TFT 128×128 SPI - https://www.orient.lv/veikals/displays/spi-tft-144-st7735/
 LED ->3.3V | SCK (SCK) -> D13 | SDA (MOSI) -> D11 | A0 (DC) – D8 | RESET (RST) -> D9 | CS -> D10 | GND -> Ground | VCC -> 5V. 
-2) b - EKRĀNS 0.95″ OLED SSD1331 96×64 SPI - https://www.orient.lv/veikals/displays/oled-ssd1331/
+*** b - EKRĀNS 0.95″ OLED SSD1331 96×64 SPI - https://www.orient.lv/veikals/displays/oled-ssd1331/
 GND  - Ground | VCC – 5V | SCL (Clock Line) – 13 | SDA (Mosi) – 11 | RES (Reset) – 9 | DC (Data/Demand) – 8 | CS (Chip Select) – 10. 
 3) DHT22 (skatoties no restotās priekšas):
 VCC – 5V | Data – Pin2 | NC – tukšs | Ground – GND. 
