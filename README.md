@@ -6,7 +6,7 @@ virs tā iespējama ietekme uz veselību un pašsajūtu, bet pie lielām koncent
 
 • DETAĻU SARAKSTS:
 
-1) MH-Z14A NDIR CO2 Sensor
+1) CO2 NDIR sensors a - "MH-Z14A" vai b - "MH-Z19B"
 2) Ekrāns a - "1.44″ TFT 128×128 SPI" vai b - "0.95″ OLED SSD1331 96×64 SPI"
 3) NANO 3.0
 4) Mini USB kabelis
@@ -18,14 +18,16 @@ virs tā iespējama ietekme uz veselību un pašsajūtu, bet pie lielām koncent
 
 • SLĒGUMS ar NANO 3.0
 
-1) CO2 sensors MH-Z14A:
-19 TX – 6 | 18 RX – 5 | 17 – 5V | 16 – GND
+1) a - CO2 sensors MH-Z14A:
+19 TX – 6 | 18 RX – 5 | 17 – 5V | 16 – GND. 
+1) b - CO2 sensors MH-Z19B:
+TX - D6, RX - D5, Vin - 5V (3.6V-5.5V), GND - Ground. 
 2) a - EKRĀNS 1.44″ TFT 128×128 SPI - https://www.orient.lv/veikals/displays/spi-tft-144-st7735/
-LED ->3.3V | SCK (SCK) -> D13 | SDA (MOSI) -> D11 | A0 (DC) – D8 | RESET (RST) -> D9 | CS -> D10 | GND -> Ground | VCC -> 5V
+LED ->3.3V | SCK (SCK) -> D13 | SDA (MOSI) -> D11 | A0 (DC) – D8 | RESET (RST) -> D9 | CS -> D10 | GND -> Ground | VCC -> 5V. 
 2) b - EKRĀNS 0.95″ OLED SSD1331 96×64 SPI - https://www.orient.lv/veikals/displays/oled-ssd1331/
-GND  - Ground | VCC – 5V | SCL (Clock Line) – 13 | SDA (Mosi) – 11 | RES (Reset) – 9 | DC (Data/Demand) – 8 | CS (Chip Select) – 10.
+GND  - Ground | VCC – 5V | SCL (Clock Line) – 13 | SDA (Mosi) – 11 | RES (Reset) – 9 | DC (Data/Demand) – 8 | CS (Chip Select) – 10. 
 3) DHT22 (skatoties no restotās priekšas):
-VCC – 5V | Data – Pin2 | NC – tukšs | Ground – GND
+VCC – 5V | Data – Pin2 | NC – tukšs | Ground – GND. 
 
 
 • BIBLIOTĒKAS
@@ -42,8 +44,7 @@ b - Adafruit_SSD1331.h un Adafruit_GFX.h - lejuplādējamas Arduino IDE programm
 
 • KALIBRĒŠANA
 
-Svaigā gaisā CO2 sensora kontakts Nr.8 ir jāsavieno uz vismaz 7 sekundēm ar Ground.
-Jāatstāj svaigā gaisā uz vismaz 20 minūtēm - tad sensors ir nokalibrēts.
+Svaigā gaisā sensora Pin8 (MH-Z14A) vai HD (MH-Z19B) ir jāsavieno ar Ground uz vairāk kā 7 sekundēm un jāatstāj svaigā gaisā vairāk kā uz 20 minūtēm - tad sensors ir nokalibrēts.
 Vienmēr var pārbaudīt kalibrāciju, iznesot sensoru svaigā gaisā. Tam ir jārāda 395 – 410ppm.
 
 Specifikācijā norādīts uzsilšanas laiks 3 min., tātad korekti rādījumi būs līdz 3 minūtēm pēc ieslēgšanas.
