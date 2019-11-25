@@ -107,7 +107,7 @@ void loop()
     if (cipars < 1000) {
       display.fillCircle(82, 13, 13, GREEN);
       display.setTextColor(GREEN, BLACK);
-      display.fillRect(50, 40, 18, 22, BLACK);
+      display.fillRect(50, 40, 19, 22, BLACK);
       display.setCursor(55, 45);
       display.setTextSize(1);
       display.print("Labs!");
