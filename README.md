@@ -9,7 +9,7 @@ virs tā iespējama ietekme uz veselību un pašsajūtu, bet pie lielām koncent
 1) CO2 NDIR sensors a - "MH-Z14A" vai b - "MH-Z19B"
 2) Ekrāns a - "1.44″ TFT 128×128 SPI" vai b - "0.95″ OLED SSD1331 96×64 SPI"
 3) NANO 3.0 vai UNO R3 + atbilstošs USB kabelis
-4) Savienošanas vadi female-female, male-female
+4) Savienošanas vadi 
 5) Temperatūras un mitruma sensors DHT22 (vai DHT11)
 
 ![Foto un shēma](https://www.orient.lv/wp-content/uploads/2019/11/co2-mhz14-dht22-tft128x128-nano.jpg)
