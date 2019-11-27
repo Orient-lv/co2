@@ -27,6 +27,8 @@ GND  - Ground | VCC – 5V | SCL (Clock Line) – 13 | SDA (Mosi) – 11 | RES (
 VCC – 5V | Data – 2 | NC – tukšs | Ground – GND. 
 
 
+![CO2 sensor pinout](https://www.orient.lv/wp-content/uploads/2019/11/co2_ndir_pinout.jpg)
+
 • BIBLIOTĒKAS
 
 Arduino IDE programmā jāielādē bibliotēkas:
